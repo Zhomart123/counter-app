@@ -170,4 +170,8 @@ button {
     .nav-link {
         min-width: 2rem;
     }
+    .btn-group{
+      justify-content: end;
+      padding-right: 1rem;
+    }
 }
