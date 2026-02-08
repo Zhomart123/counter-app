@@ -10,6 +10,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Plus, RotateCcw } from "lucide-react";
 import "./App.css";
 
+// git add .
+// git commit -m "Добавил новые изменения в счетчик"
+// git push origin main
 // npm run build
 // npm run deploy
 // https://github.com/Zhomart123/counter-app/settings/pages

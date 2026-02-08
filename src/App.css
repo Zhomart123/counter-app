@@ -103,6 +103,7 @@ nav {
 
 h1 {
     font-size: 1.6rem;
+    line-height: 1.5;
     font-weight: 600;
     margin-bottom: 20px;
     background: linear-gradient(to right, #60a5fa, #a855f7);
@@ -161,7 +162,6 @@ button {
     }
     h1 {
         font-size: 1.4rem;
-        line-height: 1.5;
     }
     nav {
         gap: 10px;
