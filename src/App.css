@@ -37,12 +37,11 @@ body {
 }
 
 .progress-text {
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: -10px;
-  transition: color 0.3s ease;
+    font-size: 1.2rem;
+    letter-spacing: 0.006rem;
+    font-weight: 600;
+    margin-bottom: -10px;
+    transition: color 0.3s ease;
 }
 
 .app-container {
@@ -67,9 +66,13 @@ nav {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-weight: 500;
-    padding: 8px 16px;
-    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    border-radius: 8rem;
+    min-width: 4rem;
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-link:hover,
@@ -84,7 +87,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
 
 .counter-card {
@@ -92,15 +94,16 @@ nav {
     backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 24px;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
     width: 100%;
-    max-width: 460px;
+    max-width: 500px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
     margin-bottom: 20px;
     background: linear-gradient(to right, #60a5fa, #a855f7);
     -webkit-background-clip: text;
@@ -147,17 +150,24 @@ button {
 }
 
 @media (max-width: 600px) {
+    .page-container {
+        padding: 0 1.5rem;
+    }
     .count-display {
-        font-size: 4rem;
+        font-size: 6rem;
     }
     .counter-card {
-        padding: 20px;
+        padding: 20px 0.6rem;
     }
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        line-height: 1.5;
     }
     nav {
         gap: 10px;
         font-size: 0.9rem;
+    }
+    .nav-link {
+        min-width: 2rem;
     }
 }
