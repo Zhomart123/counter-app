@@ -10,8 +10,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Plus, RotateCcw } from "lucide-react";
 import "./App.css";
 
+// git init
 // git add .
-// git commit -m "Добавил новые изменения в счетчик"
+// git commit -m "qwer"
 // git push origin main
 // npm run deploy
 // https://github.com/Zhomart123/counter-app/settings/pages
@@ -77,12 +78,12 @@ const CounterPage = ({ title, storageKey }) => {
 
                 <div className="btn-group">
                     <motion.button
-                        whileTap={isGoalReached ? { scale: 0.9 } : {}}
+                        whileTap={{ scale: 0.9 }}
                         className="btn-reset"
-                        onClick={() => isGoalReached && setCount(0)}
+                        onClick={() => setCount(0)}
                         style={{
-                            opacity: isGoalReached ? 1 : 0.3,
-                            cursor: isGoalReached ? "pointer" : "not-allowed",
+                            opacity: 1,
+                            cursor: "pointer",
                         }}
                     >
                         <RotateCcw size={20} />
